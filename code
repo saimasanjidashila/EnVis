@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EnVis — Environmental Visualization</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #3498db, #2ecc71);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0 0 20px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+
+    header a.button {
+      background: white;
+      color: #3498db;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    header a.button:hover {
+      background: #ecf0f1;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2.2em;
+      margin-bottom: 40px;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .feature-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 25px;
+      flex: 1 1 250px;
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .feature-card h3 {
+      margin-top: 10px;
+    }
+
+    .video-container {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #2c3e50;
+      color: white;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>EnVis</h1>
+  <p>Interactive environmental data visualization for researchers and enthusiasts — explore, upload, and analyze with ease.</p>
+  <a href="https://saimasanjidashila.github.io/EnVis/" class="button">View Live Demo</a>
+</header>
+
+<section>
+  <h2>Features</h2>
+  <div class="features">
+    <div class="feature-card">
+      <h3>🌍 Interactive Map</h3>
+      <p>Explore global or regional datasets with intuitive zoom and pan support.</p>
+    </div>
+    <div class="feature-card">
+      <h3>📄 Upload Files</h3>
+      <p>Upload GeoJSON, CSV, or NetCDF data and instantly see them on the map.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🌡️ SST Layers</h3>
+      <p>Toggle Sea Surface Temperature overlays and inspect changes visually.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🧭 Overlays</h3>
+      <p>Add land, coastline, and state masks for context and better analysis.</p>
+    </div>
+  </div>
+
+  <div class="video-container">
+    <h2>Watch it in Action</h2>
+    <iframe width="720" height="405" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    <p>Replace with your own demo video link above.</p>
+  </div>
+</section>
+
+<footer>
+  <p>💙 Made by <a href="https://github.com/saimasanjidashila" target="_blank">saimasanjidashila</a> | <a href="mailto:yourname@domain.com">Contact</a></p>
+</footer>
+
+</body>
+</html>
